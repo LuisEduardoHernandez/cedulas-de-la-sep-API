@@ -1,13 +1,12 @@
-#cedulas-de-la-sep-API
+API para consulta de cédulas profesionales de la SEP
+===========
+
+buscar por el nombre o consultar por #num de cédula 
 
 
- buscar por el nombre o consultar por #num de cédula 
- 
- 
- 
- http://search.sep.gob.mx/solr/cedulasCore/select?fl=%2A%2Cscore&q=andr%C3%A9s+manuel+l%C3%B3pez+obrador&start=0&rows=100&facet=true&indent=on&wt=json
+http://search.sep.gob.mx/solr/cedulasCore/select?fl=%2A%2Cscore&q=andr%C3%A9s+manuel+l%C3%B3pez+obrador&start=0&rows=100&facet=true&indent=on&wt=json
 
-
+```
 {
   "responseHeader":{
     "status":0,
@@ -33,5 +32,7 @@
         "tipo":"C1",
         "paterno":"LÓPEZ",
         "timestamp":"2020-08-21T06:14:06.082Z",
-        "score":3.51532}
-      {
+        "score":3.51532},
+      
+	...
+```
