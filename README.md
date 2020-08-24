@@ -33,5 +33,5 @@
         "tipo":"C1",
         "paterno":"LÓPEZ",
         "timestamp":"2020-08-21T06:14:06.082Z",
-        "score":3.51532},
+        "score":3.51532}
       {
