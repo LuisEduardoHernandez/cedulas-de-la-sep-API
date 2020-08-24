@@ -4,7 +4,14 @@ API para consulta de cédulas profesionales de la SEP
 buscar por el nombre o consultar por #num de cédula 
 
 
+consulta por nombre:
+
 http://search.sep.gob.mx/solr/cedulasCore/select?fl=%2A%2Cscore&q=andres+manuel+lopez+obrador&start=0&rows=100&facet=true&indent=on&wt=json
+
+
+consulta por número de cédula:
+
+http://search.sep.gob.mx/solr/cedulasCore/select?fl=%2A%2Cscore&q=1418552&start=0&rows=100&facet=true&indent=on&wt=json
 
 ```
 {
